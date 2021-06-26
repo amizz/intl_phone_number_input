@@ -420,6 +420,7 @@ class _InputWidgetView
           Flexible(
             child: TextFormField(
               key: Key(TestHelper.TextInputKeyValue),
+              enableInteractiveSelection: true,
               textDirection: TextDirection.ltr,
               controller: state.controller,
               cursorColor: widget.cursorColor,
